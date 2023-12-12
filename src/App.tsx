@@ -1,9 +1,20 @@
 import { FC } from "react";
+import Banner from "./components/Banner/Banner";
+import About from "./components/About/About";
+import Team from "./components/Team/Team";
+import Footer from "./components/Footer/Footer";
 
 const App: FC = (): JSX.Element => {
   return (
     <>
-      <div className="bg-lime-200">it's just works!</div>
+      <div>
+        <main className="container">
+          <Banner />
+          <About />
+          <Team />
+          <Footer />
+        </main>
+      </div>
     </>
   );
 };
