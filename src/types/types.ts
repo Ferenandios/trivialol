@@ -16,3 +16,12 @@ export interface ILinks {
 export interface LinkProps {
   link: ILinks;
 }
+export interface IPlan {
+  title: string;
+  text: string;
+  isActive: boolean;
+}
+export interface PlanProps {
+  item: IPlan;
+  index: number;
+}
