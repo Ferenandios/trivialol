@@ -3,7 +3,7 @@ import Item from "./Item/Item";
 import { type Person } from "../../../types/types";
 
 const Items: FC = (): JSX.Element => {
-  const items: Item[] = [
+  const items: Person[] = [
     {
       avatar: "/src/assets/MADE.jpg",
       name: "Николай Князев",
@@ -22,7 +22,7 @@ const Items: FC = (): JSX.Element => {
   ];
   return (
     <>
-      <div className="mt-8">
+      <div className="mt-8 sm:flex sm:justify-around md:justify-center">
         {items.map((item, index) => (
           <Item key={index} item={item} />
         ))}

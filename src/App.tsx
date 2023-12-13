@@ -9,15 +9,15 @@ import SteveJobs from "./components/SteveJobs/SteveJobs";
 const App: FC = (): JSX.Element => {
   return (
     <>
-      <div>
-        <main className="container">
+      <div className="w-full">
+        <main className="container w-full mx-auto">
           <Banner />
           <About />
           <Team />
           <Plan />
           <SteveJobs />
-          <Footer />
         </main>
+        <Footer />
       </div>
     </>
   );
