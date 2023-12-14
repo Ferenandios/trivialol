@@ -35,7 +35,7 @@ const Item: FC<PlanProps> = ({ item, index }): JSX.Element => {
           className={item.isActive ? styles.button2Active : styles.button2}
           onClick={() => dispatch(changeActive(index))}
         >
-          <h4 className={styles.title}>{item.title}</h4>
+          <h4 className={styles.title2}>{item.title}</h4>
         </button>
       </div>
     </>

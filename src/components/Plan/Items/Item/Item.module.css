@@ -26,6 +26,6 @@
 .button2Active {
   @apply flex justify-between items-center w-full bg-[#D9D9D926] rounded-[5.4px] px-4 py-2;
 }
-.title {
+.title2 {
   @apply text-base;
 }
