@@ -2,21 +2,24 @@ import { FC } from "react";
 import Item from "./Item/Item";
 import { type Person } from "../../../types/types";
 import styles from "./Items.module.css";
+import first from "/src/assets/MADE.jpg";
+import second from "/src/assets/BY.jpg";
+import third from "/src/assets/KNYAZEV.jpg";
 
 const Items: FC = (): JSX.Element => {
   const items: Person[] = [
     {
-      avatar: "/src/assets/MADE.jpg",
+      avatar: first,
       name: "Николай Князев",
       about: "Основатель, Борьба с запоем",
     },
     {
-      avatar: "/src/assets/BY.jpg",
+      avatar: second,
       name: "Михаил Грищенко",
       about: "Сооснователь, Лежание на диване",
     },
     {
-      avatar: "/src/assets/KNYAZEV.jpg",
+      avatar: third,
       name: "Алексей Кириченко",
       about: "Сооснователь, Просмотр аниме",
     },
