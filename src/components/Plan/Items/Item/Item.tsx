@@ -4,7 +4,6 @@ import plus from "/src/assets/plus.svg";
 import { type PlanProps } from "../../../../types/types";
 import { useAppDispatch } from "../../../../hooks/hooks";
 import { changeActive } from "../../../../features/person.slice";
-import Text from "../../Text/Text";
 
 const Item: FC<PlanProps> = ({ item, index }): JSX.Element => {
   const dispatch = useAppDispatch();
