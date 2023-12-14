@@ -1,16 +1,17 @@
 import React, { FC } from "react";
 import { useAppSelector } from "../../../hooks/hooks";
+import styles from "./Text.module.css";
 
 const Text: FC = (): JSX.Element => {
   const { persons } = useAppSelector((state) => state.person);
   return (
     <>
-      <div className="ml-6">
+      <div className={styles.ansoc}>
         {persons.map(
           (person, index) =>
-            person.isActive && (
+            person.isActive && ( // Only one can be active
               <React.Fragment key={index}>
-                <p className="text-base leading-[1.1] w-[360px] max-h-[220px] bg-[#D9D9D91A] rounded-[30px] px-3 py-4 text-justify">
+                <p className={styles.text}>
                   {person.text}
                 </p>
               </React.Fragment>

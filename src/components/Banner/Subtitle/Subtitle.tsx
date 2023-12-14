@@ -1,10 +1,11 @@
-import React from "react";
+import { FC } from "react";
+import styles from "./Subtitle.module.css";
 
-const Subtitle = () => {
+const Subtitle: FC = (): JSX.Element => {
   return (
     <>
       <div>
-        <h3 className="font-normal drop-shadow-greatest w-[200px] mt-4 sm:text-base sm:w-[270px]">
+        <h3 className={styles.subtitle}>
           Создание браузерной онлайн-игры в группе смелых разработчиков
         </h3>
       </div>

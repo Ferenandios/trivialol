@@ -1,0 +1,6 @@
+.ansoc {
+  @apply flex justify-center mt-2 px-4 sm:mt-0 sm:px-0;
+}
+.photo {
+  @apply bg-[#D9D9D91A] w-full h-[302px] object-cover rounded-3xl sm:w-[275px] sm:h-[516px] sm:rounded-[11px] md:w-[373px] lg:w-[460px] lg:h-[460px];
+}

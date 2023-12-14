@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Item from "./Item/Item";
 import { type Person } from "../../../types/types";
+import styles from "./Items.module.css";
 
 const Items: FC = (): JSX.Element => {
   const items: Person[] = [
@@ -22,7 +23,7 @@ const Items: FC = (): JSX.Element => {
   ];
   return (
     <>
-      <div className="mt-8 sm:flex sm:justify-around md:justify-center">
+      <div className={styles.items}>
         {items.map((item, index) => (
           <Item key={index} item={item} />
         ))}

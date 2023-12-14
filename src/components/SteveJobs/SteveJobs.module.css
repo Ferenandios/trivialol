@@ -1,0 +1,9 @@
+.SteveJobs {
+  @apply px-4 mt-4 sm:flex sm:justify-center sm:px-0 sm:mt-7 md:mt-9;
+}
+.ansoc {
+  @apply font-raleway font-black text-lg flex justify-center items-center w-full h-[60px] bg-[#D9D9D91A] rounded-xl sm:w-[330px] md:w-[350px] md:h-[70px] lg:w-[400px] lg:h-20;
+}
+.button {
+  @apply w-full h-full flex justify-center items-center sm:text-lg md:text-xl lg:text-2xl;
+}

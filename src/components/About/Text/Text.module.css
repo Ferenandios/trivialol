@@ -1,0 +1,6 @@
+.ansoc {
+  @apply flex justify-center items-center mt-2 first:mt-0 px-4 sm:px-0 sm:mt-4 md:mt-[30px] lg:mt-0;
+}
+.text {
+  @apply font-light text-justify text-xs w-full rounded-[27.6px] bg-[#D9D9D91A] px-3 py-4 sm:text-base sm:leading-[1.2] sm:w-[317px] lg:w-[500px];
+}

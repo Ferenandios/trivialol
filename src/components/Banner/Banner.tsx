@@ -1,18 +1,19 @@
 import { FC } from "react";
 import Title from "./Title/Title";
 import Subtitle from "./Subtitle/Subtitle";
+import styles from "./Banner.module.css";
 
 const Banner: FC = (): JSX.Element => {
   return (
     <>
-      <div className="h-[250px] sm:h-[574px] md:h-screen">
+      <div className={styles.banner}>
         <img
-          className="absolute -z-50 w-full h-[250px] object-cover left-0 sm:h-[574px] md:h-screen"
+          className={styles.background}
           src="/src/assets/banner.png"
           alt="Background"
         />
         <div className="container">
-          <div className="flex flex-col text-center items-center pt-8 sm:pt-[150px] lg:pt-[160px]">
+          <div className={styles.inner}>
             <Title />
             <Subtitle />
           </div>

@@ -1,0 +1,15 @@
+.plan {
+  @apply pt-[240px] sm:pt-7 md:hidden;
+}
+.plan2 {
+  @apply hidden md:block pt-7;
+}
+.inner {
+  @apply lg:flex lg:justify-center;
+}
+.content {
+  @apply flex mt-8 border-b-[1px] border-b-white;
+}
+.items {
+  @apply pb-8 pr-6 border-r-[1px];
+}

@@ -1,12 +1,11 @@
-import React, { FC } from "react";
+import { FC } from "react";
+import styles from "./Title.module.css";
 
 const Title: FC = (): JSX.Element => {
   return (
     <>
-      <div>
-        <h1 className="text-[32px] font-black text-center md:text-[48px]">
-          Описание продукта
-        </h1>
+      <div className={styles.ansoc}>
+        <h1 className={styles.title}>Описание продукта</h1>
       </div>
     </>
   );

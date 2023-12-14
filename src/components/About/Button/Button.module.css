@@ -1,0 +1,9 @@
+.ansoc {
+  @apply flex justify-center mt-2 px-4 sm:px-0 sm:mt-0 sm:pt-8 md:pt-[21px];
+}
+.button {
+  @apply w-full h-[50px] bg-[#EB4C42] flex justify-center items-center rounded-[22px] sm:w-[275px] sm:rounded-[10.65px] md:h-[76px] md:w-[373px] lg:w-[500px];
+}
+.link {
+  @apply font-black text-base md:text-[20px] lg:text-[24px];
+}

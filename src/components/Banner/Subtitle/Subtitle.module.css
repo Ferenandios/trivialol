@@ -1,0 +1,3 @@
+.subtitle {
+  @apply font-normal w-[200px] drop-shadow-greatest mt-4 sm:text-base sm:w-[270px];
+}

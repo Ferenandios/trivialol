@@ -1,11 +1,12 @@
 import { FC } from "react";
+import styles from './Copyright.module.css'
 
 const Copyright: FC = (): JSX.Element => {
   return (
     <>
-      <div className="text-[10px] font-raleway font-semibold flex mt-9 text-[#FFFFFF3B] justify-center md:text-sm">
+      <div className={styles.ansoc}>
         <h6>«Невероятно простой»</h6>
-        <h6 className="ml-1">&copy; 2023, Рофлан </h6>
+        <h6 className={styles.copyright}>&copy; 2023, Рофлан </h6>
       </div>
     </>
   );

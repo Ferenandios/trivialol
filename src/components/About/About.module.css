@@ -1,0 +1,21 @@
+.about {
+  @apply flex flex-col pt-8 sm:hidden;
+}
+.about2 {
+  @apply hidden pt-8 px-4 sm:block md:pt-8;
+}
+.buttonLG {
+  @apply hidden lg:block;
+}
+.buttonSM {
+  @apply lg:hidden;
+}
+.inner {
+  @apply flex mt-8 md:justify-center;
+}
+.left {
+  @apply md:order-1 md:ml-5 lg:flex lg:flex-col lg:justify-between lg:h-[460px];
+}
+.right {
+  @apply flex flex-col sm:ml-4 md:ml-0;
+}

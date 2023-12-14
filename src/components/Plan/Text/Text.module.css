@@ -1,0 +1,6 @@
+.ansoc {
+  @apply ml-6;
+}
+.text {
+  @apply text-base text-justify leading-[1.1] w-[360px] max-h-[220px] bg-[#D9D9D91A] rounded-[30px] px-3 py-4;
+}

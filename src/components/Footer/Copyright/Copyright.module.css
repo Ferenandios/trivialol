@@ -1,0 +1,6 @@
+.ansoc {
+  @apply text-[10px] font-raleway font-semibold flex mt-9 text-[#FFFFFF3B] justify-center md:text-sm;
+}
+.copyright {
+  @apply ml-1;
+}

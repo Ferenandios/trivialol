@@ -1,0 +1,18 @@
+.ansoc {
+  @apply px-4 mt-2 first:mt-0 flex justify-center sm:justify-start sm:mt-0 sm:px-0 md:ml-9 md:first:ml-0;
+}
+.item {
+  @apply w-[288px] h-20 flex items-center px-4 bg-[#D9D9D91A] rounded-[20px] sm:w-[176px] sm:h-[176px] sm:flex-col sm:px-0 md:w-[200px] md:h-[200px];
+}
+.avatar {
+  @apply w-16 h-16 rounded-full sm:w-[50px] sm:h-[50px] sm:mt-4 md:w-[56px] md:h-[56px];
+}
+.text {
+  @apply ml-5 sm:mt-4 sm:ml-0;
+}
+.name {
+  @apply text-base;
+}
+.about {
+  @apply text-sm w-[129px] mt-2 sm:mt-3 md:mx-auto md:text-center;
+}

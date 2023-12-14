@@ -1,11 +1,12 @@
 import { FC } from "react";
+import styles from "./Photo.module.css";
 
 const Photo: FC = (): JSX.Element => {
   return (
     <>
-      <div className="flex justify-center mt-2 px-4 sm:mt-0 sm:px-0">
+      <div className={styles.ansoc}>
         <img
-          className="w-full h-[302px] object-cover bg-[#D9D9D91A] rounded-3xl sm:w-[275px] sm:h-[516px] sm:rounded-[11px] md:w-[373px] lg:w-[460px] lg:h-[460px]"
+          className={styles.photo}
           src="src/assets/kawaiha.png"
           alt="Kawaiha"
         />

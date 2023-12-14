@@ -3,6 +3,7 @@ import Text from "./Text/Text";
 import Photo from "./Photo/Photo";
 import Button from "./Button/Button";
 import Title from "./Title/Title";
+import styles from "./About.module.css";
 
 const About: FC = (): JSX.Element => {
   const textList: string[] = [
@@ -11,31 +12,27 @@ const About: FC = (): JSX.Element => {
   ];
   return (
     <>
-      <div className="flex flex-col pt-8 sm:pt-7 sm:hidden">
-        <div className="hidden sm:block">
-          <Title />
-        </div>
+      <div className={styles.about}>
+        <Title />
         <Text text={textList[0]} />
         <Photo />
         <Button />
         <Text text={textList[1]} />
       </div>
 
-      <div className="hidden pt-8 sm:pt-7 sm:block sm:px-4 md:pt-8">
-        <div className="hidden sm:block">
-          <Title />
-        </div>
-        <div className="flex mt-8 md:justify-center">
-          <div className="md:order-1 md:ml-5 lg:flex lg:flex-col lg:justify-between lg:h-[460px]">
+      <div className={styles.about2}>
+        <Title />
+        <div className={styles.inner}>
+          <div className={styles.left}>
             <Text text={textList[0]} />
             <Text text={textList[1]} />
-            <div className="hidden lg:block">
+            <div className={styles.buttonLG}>
               <Button />
             </div>
           </div>
-          <div className="flex flex-col sm:ml-4 md:ml-0">
+          <div className={styles.right}>
             <Photo />
-            <div className="lg:hidden">
+            <div className={styles.buttonSM}>
               <Button />
             </div>
           </div>

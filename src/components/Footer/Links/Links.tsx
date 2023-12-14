@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { type ILinks } from "../../../types/types";
 import Link from "./Link/Link";
+import styles from './Links.module.css'
 
 const Links: FC = (): JSX.Element => {
   const links: ILinks[] = [
@@ -10,7 +11,7 @@ const Links: FC = (): JSX.Element => {
   ];
   return (
     <>
-      <div className="flex justify-center">
+      <div className={styles.links}>
         {links.map((link, index) => (
           <Link key={index} link={link} />
         ))}

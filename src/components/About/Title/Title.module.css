@@ -1,0 +1,6 @@
+.ansoc {
+  @apply hidden sm:block;
+}
+.title {
+  @apply font-black text-[32px] text-center md:text-[48px];
+}
