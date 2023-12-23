@@ -2,6 +2,7 @@ import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   indexActive: 0,
+  showCopy: false,
   persons: [
     {
       title: "Создать приложение",
@@ -43,8 +44,11 @@ const personSlice = createSlice({
         state.indexActive = action.payload;
       }
     },
+    displayCopyWindow: (state) => {
+      state.showCopy = !state.showCopy;
+    },
   },
 });
 
 export default personSlice.reducer;
-export const { changeActive } = personSlice.actions;
+export const { changeActive, displayCopyWindow } = personSlice.actions;
