@@ -15,6 +15,7 @@ export interface ILinks {
 }
 export interface LinkProps {
   link: ILinks;
+  id: number;
 }
 export interface IPlan {
   title: string;
