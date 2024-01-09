@@ -11,7 +11,7 @@ const Banner: FC = (): JSX.Element => {
         <div className={styles.background}>
           <div className={styles.ansoc}></div>
           <img
-            className="absolute -z-50 w-full h-full object-cover grayscale left-0"
+            className={styles.img}
             src={background}
             alt="Background"
           />
