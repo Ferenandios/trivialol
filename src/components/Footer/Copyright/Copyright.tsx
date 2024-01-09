@@ -7,7 +7,7 @@ const Copyright: FC = (): JSX.Element => {
       <div className={styles.ansoc}>
         <h6>«Невероятно простой»</h6>
         <h6 className={styles.copyright}>
-          &copy; 2023,{" "}
+          &copy; {new Date().getFullYear()},{" "}
           <a className="underline" href="https://github.com/Ferenandios">
             Князев Николай
           </a>{" "}
