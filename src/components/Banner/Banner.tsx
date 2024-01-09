@@ -9,7 +9,7 @@ const Banner: FC = (): JSX.Element => {
     <>
       <div className={styles.banner}>
         <div className={styles.background}>
-          <div className="absolute -z-40 w-full h-full bg-[#111] bg-opacity-70 bg-gradient-to-b from-transparent to-[#111] to-[100%]"></div>
+          <div className={styles.ansoc}></div>
           <img
             className="absolute -z-50 w-full h-full object-cover grayscale left-0"
             src={background}
