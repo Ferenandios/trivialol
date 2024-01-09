@@ -6,13 +6,12 @@ const SteveJobs: FC = (): JSX.Element => {
     <>
       <div className={styles.SteveJobs}>
         <div className={styles.ansoc}>
-          <a
-            href="https://www.youtube.com/watch?v=3nJs6GPmEZs"
-            target="_blank"
+          <button
+            onClick={() => document.write('Нужен только результат!')}
             className={styles.button}
           >
             Поддержать продукт
-          </a>
+          </button>
         </div>
       </div>
     </>
